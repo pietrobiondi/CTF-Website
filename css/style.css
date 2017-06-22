@@ -26,10 +26,10 @@ input[type="button"],input[type="submit"]{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;	
+	margin:0;
 	padding:0;
 	font-family: 'Montserrat', sans-serif;
-}	
+}
 p{
 	margin:0;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -205,6 +205,9 @@ h3.title {
     font-weight:bold;
 }
 h3.title.two {
+	 color:#fff;
+}
+h2.title.one {
 	 color:#fff;
 }
 h3.title span{
@@ -401,19 +404,18 @@ h3.title span:after{
     line-height: 1.9em;
 }
 .w3ls-agile-service-grid{
-    background: #252424;
-	padding: 5em 2em;
+  background: #252424;
+	padding: 4em 2em;
+	min-height: 300px;
 }
-.w3ls-agile-service-grid:nth-child(2){
-	background: #1f1e1e;
-}
-.w3ls-agile-service-grid:nth-child(3){
-	   
-    background: #1d1c1c;
-}
-.w3ls-agile-service-grid:nth-child(4){
-	background: #191818;
-}
+
+.w3ls-agile-service-grid:nth-child(2){ background: #1f1e1e; }
+.w3ls-agile-service-grid:nth-child(3){ background: #1d1c1c; }
+.w3ls-agile-service-grid:nth-child(4){ background: #191818; }
+.w3ls-agile-service-grid:nth-child(6){ background: #1f1e1e; }
+.w3ls-agile-service-grid:nth-child(7){ background: #1d1c1c; }
+.w3ls-agile-service-grid:nth-child(8){ background: #191818; }
+
 .agileits-icon-grid:hover .icon-left i {
 	color:#EB4549;
 	-webkit-transition: .5s all;
@@ -458,7 +460,7 @@ ul.social-icons3{
 .social-icons3 li{
 	display:inline-block;
 }
-.social-icons3 li a{  
+.social-icons3 li a{
     display: block;
     height: 30px;
     width: 30px;
@@ -580,7 +582,7 @@ ul.social-icons3{
 
 /* Common style */
 .grid figure {
-	position: relative;	
+	position: relative;
 	overflow: hidden;
 	margin: 10px 0;
 	height: auto;
@@ -774,7 +776,7 @@ figure.effect-apollo:hover p {
 }
 /*--/test-monials --*/
 #test-monials {
-    background: url(../images/3.jpg)no-repeat 0px 0px;
+    background: url(../images/1169.jpg)no-repeat 0px 0px;
     background-size: cover;
     background-attachment: fixed;
     padding: 0;
@@ -1159,7 +1161,7 @@ ul.social-icons3.two li a {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1371,9 +1373,10 @@ ul.social-icons3.two li a {
 		width: 50%;
 	}
 	#test-monials {
-		min-height: 694px;
+		min-height: 30em;
 		padding-top: 4em;
 		padding-bottom: 4em;
+		background-size:100% auto;
 	}
 	.test-monials {
 		padding: 0;
@@ -1559,7 +1562,7 @@ ul.social-icons3.two li a {
 		margin: 0 18%;
 	}
 	.creative {
-	   
+
 		min-height: 377px;
 		padding: 41px 34px 0;
 	}
@@ -1691,7 +1694,7 @@ ul.social-icons3.two li a {
 	}
 }
 @media (max-width:384px){
-	
+
 	 .staff-grid {
 		text-align: center;
 		width:90%;
@@ -1718,7 +1721,7 @@ ul.social-icons3.two li a {
 }
 }
 @media (max-width:375px){
-	
+
 	 h2.tittle {
 		font-size: 1.2em;
 		line-height: 1.4em;
