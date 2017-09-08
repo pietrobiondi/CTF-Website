@@ -1,5 +1,7 @@
 # CTF-Website
-Capture the flag website
+Capture the flag website.
+
+_Internet_ _Security_ _Competition_.
 
 [Template](https://w3layouts.com/visionary-corporate-category-flat-bootstrap-responsive-web-template-2/)
 
